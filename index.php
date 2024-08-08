@@ -20,8 +20,5 @@
         <input type="submit" value="Registrar">
         <input type="reset" value="Borrar">
     </form>
-
-
-
 </body>
 </html>

@@ -14,12 +14,12 @@ if (empty($_POST["usuario"])||empty($_POST["password"])){
 }
 
 
-function validarUsuario ($usuario, $password){
-    // Array Asociativo -> $listaUsuarios
-    $listaUsuarios=["Daniel"=>"CEAT1234@", "Marina"=>"CEAT1234@", "Ana"=>"CEAT1234@"];
-    if ($listaUsuarios[$usuario]==$password){
+function validarUsuario($usuario, $password) {
+    $listaUsuarios = ["Daniel" => "CEAT1234@", "Marina" => "CEAT1234@", "Ana" => "CEAT1234@"];
+    if (isset($listaUsuarios[$usuario]) && $listaUsuarios[$usuario] == $password) {
         return true;
-    }else{
+    } else {
         return false;
     }
 }
+

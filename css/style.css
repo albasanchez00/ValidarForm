@@ -1,0 +1,36 @@
+/* Estilos Generales */
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+body {
+    font-family: Verdana, Arial,sans-serif;
+    font-size: 16px;
+    text-align: center;
+    width: 100%;
+    height: 10%;
+}
+
+.bloque_log{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 50px;
+    padding: 5px;
+}
+
+.bloque_log input{
+    width: 200px;
+    height: 30px;
+}
+
+#botonEnviar, #botonBorrar{
+    width: 65px;
+    background-color: black;
+    color: white;
+}
